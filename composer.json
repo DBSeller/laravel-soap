@@ -12,6 +12,10 @@
         {
             "name": "Michael van de Rijt",
             "email": "me@mvdrijt.com"
+        },
+        {
+            "name": "Gabriel Morgado",
+            "email": "gabriel.morgado@dbseller.com.br"
         }
     ],
     "require": {
