@@ -1,7 +1,12 @@
 {
-    "name": "artisaninweb/laravel-soap",
+    "name": "dbseller/laravel-soap",
     "description": "A SoapClient wrapper integration for Laravel",
-    "keywords": ["laravel", "soap", "client", "wrapper"],
+    "keywords": [
+        "laravel",
+        "soap",
+        "client",
+        "wrapper"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": "^7.4 || ^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4 || ^8.5",
         "ext-soap": "*"
     },
     "autoload": {
@@ -27,5 +32,8 @@
                 "SoapWrapper": "Artisaninweb\\SoapWrapper\\Facade"
             }
         }
+    },
+    "replace": {
+        "artisaninweb/laravel-soap": "self.version"
     }
 }
