@@ -35,5 +35,6 @@
     },
     "replace": {
         "artisaninweb/laravel-soap": "self.version"
-    }
+    },
+    "version": "0.3.0.11"
 }
